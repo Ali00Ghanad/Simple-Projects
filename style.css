@@ -37,7 +37,7 @@ button:hover{color: #AD28EB;}
 .Card{
     background-color: white;
     margin: 10rem 2rem 2rem 2rem;
-    max-width: 600px;
+    width: 600px;
     padding: 1.5rem;
     border-radius: 1rem;
 }
@@ -53,6 +53,7 @@ button:hover{color: #AD28EB;}
 .answer-box{
     color: hsl(292, 16%, 49%);
     padding-bottom: 1.5rem;
+    display: none;
 }
 .q-box img{
     min-width: 30px;
