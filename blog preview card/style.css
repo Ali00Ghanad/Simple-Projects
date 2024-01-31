@@ -1,0 +1,46 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border: 1px black solid;
+    border-radius: 20px;
+    max-width: 400px;
+    box-shadow: 10px 10px 0 0 black;
+    margin: 0 10px;
+    font-family: 'Figtree', sans-serif;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.profile p{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.profile img{
+    width: 20%;
+}
+article{
+    font-size: 2vh;
+    margin: 4px;
+}
+article img{
+    border-radius: 10px;
+}
+h4{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 600;
+    padding: 7px 10px;
+}
