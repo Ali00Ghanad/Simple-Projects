@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-top.svg') , 
+    url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat , no-repeat; /* interesting :))) */
+    background-position: right 50vw bottom 50vh ,
+    left 50vw top 50vh
+}
+.card{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 2px 5px 20px 0  hsl(229, 23%, 23%);
+}
+.card img{
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+    z-index: 1;
+}
+.top-pic{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    width: 100%;
+    position: relative;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+p{
+    color: hsl(0, 0%, 59%)
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0;
+}
+.name p{
+    margin-left : 10px;
+}
+.loc{
+    width: 100%;
+    text-align: center;
+    padding-bottom:30px ;
+    border-bottom: 1px solid hsla(0, 0%, 59%, 0.37);
+}
+.information{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.information .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box p {
+    font-size: 12px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
