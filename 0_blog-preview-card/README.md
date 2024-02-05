@@ -1,3 +1,3 @@
 # Welcome
-Project (2) : This exercise was about designing a blog preview card and only HTML CSS were used.
+Project : This exercise was about designing a blog preview card and only HTML CSS were used.
 I took this exercise from  Frontend mentor ...
