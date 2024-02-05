@@ -1,3 +1,3 @@
 # FAQ Project
-Project (1) : a simple project from Frontend Mentor for practice and and learning how to make a dropdown :D
+Project : a simple project from Frontend Mentor for practice and and learning how to make a dropdown :D
 - it's not my first exercise ! it's the first one that i decide to share...
