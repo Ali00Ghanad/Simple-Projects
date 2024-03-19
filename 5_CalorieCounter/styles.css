@@ -1,0 +1,122 @@
+:root{
+    --darkgray: rgb(43, 43, 43);
+    --lightgray: rgb(81, 81, 81);
+    --darkpurple: rgb(23, 14, 47);
+}
+*{
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;  
+}
+body{
+    background-color: var(--darkgray);  
+    display: grid;
+    place-content: center;
+}
+form{
+    margin-top: 100px;
+    width: 70vw;
+    min-width: 300px;
+    max-width: 1000px;
+}
+legend{
+    color: rgb(212, 112, 76);
+}
+label{color: rgb(230, 230, 230);}
+.main-field{
+    border-radius: 10px;
+    border-color: peru;
+    margin: 30px 0 30px 0;
+}
+fieldset{
+    border-color: var(--lightgray);
+    margin-top: 40px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    color: peru;
+}
+#budget{
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: dimgray;
+    color: floralwhite;
+}
+#budget::placeholder{
+    color: rgb(65, 65, 65);
+}
+select{
+    background-color: rgb(175, 175, 175);
+    padding: 5px;
+    border-radius: 20px;
+    border: 2none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.226);
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(175, 175, 175);
+    transition: 0.4s;
+    cursor: pointer;
+}
+#add:hover{
+    transition: 0.4s;
+    background-color: rgb(89, 155, 89);
+    color: white;
+}
+#clear:hover{
+    transition: 0.4s;
+    background-color: rgb(191, 86, 86);
+    color: white;
+}
+.userInput{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.userInput div input{
+    width: 10vw;
+    min-width: 100px;
+    max-width: 300px;
+}
+#submit{
+    width: 60%;
+}
+#submit:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.resultbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#result{
+    width: 90%;
+    margin-top: 30px;
+    color: white;
+}
+input{
+    color: white;
+    outline: none;
+    border: none;
+    padding: 4px 0px;
+    padding-left: 5px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(119, 119, 119);
+}

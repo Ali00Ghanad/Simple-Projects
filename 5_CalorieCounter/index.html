@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Calorie Counter</title>
+</head>
+<body>
+    <h1 style="color:peru">Calorie Counter</h1>
+    <form>
+       <div class="budgetPanel">
+            <label for="budget">Budget : </label>
+            <input id="budget" type="number"  name="submit" placeholder="Calorie Budget..." min="0" required>
+       </div>
+        <fieldset class="main-field">
+            <legend>Your Calorie Plan</legend>
+            <fieldset id="breakfast">
+                <legend>Breakfast</legend>
+                <div class="input-container">
+
+                </div>
+            </fieldset>
+        
+            <fieldset id="lunch">
+                <legend>Lunch</legend>
+                <div class="input-container">
+
+                </div>
+            </fieldset>
+
+            <fieldset id="dinner">
+                <legend>Dinner</legend>
+                <div class="input-container">
+
+                </div>
+            </fieldset> 
+            
+            <fieldset id="snacks">
+                <legend>Snacks</legend>
+                <div class="input-container">
+
+                </div>
+            </fieldset>
+  
+            <fieldset id="exercise">
+                <legend>Exercise</legend>
+                <div class="input-container">
+
+                </div>
+            </fieldset>
+
+            <div class="buttons">
+                <div class="addClear">
+                    <button type="button" id="add">Add Entry</button>
+                    <button type="button" id="clear">Clear The List</button>
+                </div>
+                <select name="option" id="option">
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="snacks">Snacks</option>
+                    <option value="exercise">Exercise</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="resultbox">
+            <legend>Result</legend>
+            <button type="submit" id="submit">Calculate</button>
+            <div id="result" class="result hide"></div>
+        </fieldset>    
+    </form>    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
