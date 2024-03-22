@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <h1 style="color: white;">Music Player</h1>
+    <div class="song-info">
+        <img id="musicImg" src="icons/camping.gif" alt="MusicImg">
+        <div class="buttons">
+            <button id="previous" class="previous" aria-label="Previous">
+                <img src="icons/pervious-icon.png">
+            </button>
+            <button id="play" class="play" aria-label="Play">
+                <img src="icons/play-icon.png">
+            </button>
+            <button id="pause" class="pause" aria-label="Pause">
+                <img src="icons/pause-icon.png">
+            </button>
+            <button id="next" class="next" aria-label="Next">
+                <img src="icons/next-icon.png">
+            </button>
+            <button id="shuffle" class="shuffle" aria-label="Shuffle">
+                <img src="icons/shuffle.png">
+            </button>
+        </div>
+        <div id="info">
+            <p>Title : <span id="player-song-title">----</span></p>
+            <p>Artist : <span id="player-song-artist">----</span></p>
+        </div>
+    </div>
+    <div class="playlist-container">
+        <div class="header">
+            <div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <h3>Playlist</h3>
+            <div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <ul id="playlist-songs"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

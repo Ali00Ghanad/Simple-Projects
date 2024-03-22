@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(10, 12, 50);
+}
+#info{
+    width: 90%;
+    border:1px solid rgba(22, 22, 22, 0.2); 
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    color: white;
+}
+#player-song-title , #player-song-artist{
+    color: rgb(0, 247, 255);
+}
+#musicImg{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid rgb(153, 225, 126);
+    margin-top: 20px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.buttons img{
+    width: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0.1px rgb(37, 30, 100);
+}
+.buttons{
+    margin: 0;
+}
+.playlist-song-delete svg:hover{
+    fill: red;
+}
+.song-info{
+    background:linear-gradient(rgb(64, 217, 148),rgb(67, 67, 131));
+    display: flex;
+    max-width: 430px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.playlist-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(52, 65, 77);
+    margin: 5px;
+    max-width: 450px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.line{
+    background-color: cadetblue;
+    width: 2cm;
+    height: 2px;
+    margin: 5px;
+}
+#reset{
+    color: rgb(127, 127, 237);
+    margin-right:30px;
+    border: 1px solid white;
+    padding: 10px 50px;
+}
+.playlist-song{
+    border-bottom: 1px solid cadetblue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 20px;
+}
+[aria-current="true"] {
+    background-color: rgb(30, 45, 63);
+}
+  
+.playlist-song-title{color: white;}
+.playlist-song-artist{color:rgb(144, 144, 217);}
+.playlist-song-duration{color:rgb(64, 217, 148)}
